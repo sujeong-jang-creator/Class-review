@@ -1,0 +1,78 @@
+학습내용
+
+1.encoding : 일종의 숫자체계
+   - 컴퓨터가 이해할 수 있는 형식으로 변환하는 것
+   - utf-8
+   - python 3 버전은 기본적으로 utf-8
+
+2. 개발 환경 구축
+   1. anaconda
+      통합개발 배포환경
+      개발 tool
+      다양한 library들 이미 기본적으로 제공
+
+   2. vsc
+       anaconda 설치 전 설치 권장
+       python plug in 설치
+
+   3. tip
+       1. 윈도우 화면 분할
+          윈도우키 + 방향키
+
+       2. cmd창 오픈
+          윈도우키 + r -> 실행창 실행 -> cmd 입력
+
+       3. vsc상에서
+          explorer 창 활성/비활성 단축키
+            ctrl + b
+
+       4. 윈도우 탐색기 창 띄우기
+          윈도우키 + E
+          
+   4. 가상 환경 구성 명령어
+       1. virenv01이라는 이름의 가상 환경 생성
+           (base) C:\Users\Playdata>conda create -n virenv01 python=3.6
+
+       2. 가상 환경 실행(활성화)
+           (base) C:\Users\Playdata>conda activate virenv01
+
+       3. 가상 환경상에서의 python 버전 확인
+           (virenv01) C:\Users\Playdata>python --version
+
+       4. 내장 library 확인
+           - base와 달리 기본적으로 자동 셋팅되는 library 수는 매우 적음 
+           (virenv01) C:\Users\Playdata>conda list
+
+       5. 가상 환경 종료
+       (virenv01)  C:\Users\Playdata>conda deactivate
+
+       6. 가상 환경 및 base list 확인 
+       (base) C:\Users\Playdata>conda env list
+
+       7. virenv01 삭제
+       (base) C:\Users\Playdata>conda env remove -n virenv01
+
+       8. 가상 환경 및 base list 확인 
+       (base) C:\Users\Playdata>conda env list
+
+
+   5. 가상환경 생성 후에 vsc나 jupyter들도 가상환경 상에서 개발 할수 있는 구성 연습
+    
+=====
+Syntax
+1. 프로그램 구성
+    데이터
+        변수
+        숫자(정수, 실수) / 문자열 / 논리 ...
+    동작 수행 하는 기능(동사적인 처리 로직)
+        함수
+            - 객체와 무관하게 기능만 구성 할 수 있는 구성을 함수라 표현
+        메소드
+            - 객체 내에 표현되는 기능들은 메소드
+    객체
+        사람 = 객체
+            데이터들
+                정상적인 구성 요소들을 모두 포함하고 있는 사람을 형상화 한 구조
+                눈 두개/코/위/손/팔...다리
+            사람의 움직임
+                기능(메소드)

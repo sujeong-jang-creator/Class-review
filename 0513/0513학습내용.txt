@@ -1,0 +1,23 @@
+1. http
+    - server 와 client(브라우저)가 네트웍(인터넷) 상에서 통신하는 약속(프로토콜, 규약)
+    - http://www.google.com  - google
+        이름이 구글 - 구분 가능한 고유한 주소값이 url
+            192.168.90.176 이런식의 ip 보유
+            user (end user) 들은 ip 사용은 불편 -> ip를 고유한 매력있는 이름(도메인)과 매핑
+    - http://www.naver.com - naver
+
+2. 모든 전세계 시스템의 고유한 ip
+    1. 모든 컴퓨터는 고정으로 127.0.0.1 / loalhost
+    2. 인터넷망 연결되어 있다면 ip 부여 받음
+
+3. 서버 개념 선행 학습
+    - test 및 개발 서버
+    1. jupyter 서버 주소
+        http://localhost:8888/tree
+        http://127.0.0.1:8888/tree
+    2. html 개발해서 vsc 통해서 test 할수 실시간 live server
+        http://127.0.0.1:5500/test/test.html
+        http://localhost:5500/test/test.html
+        
+4. 실제 웹상에서 서비스 하는 서버들은 돈주고 구매해서 사용하는 사용 서버
+    - 상용서버 + 서비스 로직을 개발 <-> client들에게 서비스 하는거임
