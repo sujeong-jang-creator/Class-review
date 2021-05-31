@@ -31,14 +31,16 @@ alt="No.2" width="900" height="500" align="center" border="0"></details>
      
 <details><summary> No.3 </summary></p>     
 <img src="https://github.com/sujeong-jang-creator/Class-review/blob/master/0513/0513%20%EB%AF%B8%EC%85%98%EC%82%AC%EC%A7%84/%EC%9A%B0%EB%A6%AC%ED%8C%80%20%EB%AF%B8%EC%85%98%203.JPG?raw=true"
-alt="No.3" width="700" height="300" align="center" border="0"></details>        
+alt="No.3" width="700" height="300" align="center" border="0"></details>     
      
 <h3> &nbsp;:heavy_check_mark: LINK</p>
-     <a href = "https://github.com/sujeong-jang-creator/Class-review/tree/master/0513/0513%20%EB%AF%B8%EC%85%98%EC%82%AC%EC%A7%84": LINK</a></details>
-          
-<!-- 4번째 팀퀴즈-->
+<a href = "https://github.com/sujeong-jang-creator/Class-review/tree/master/0513/0513%20%EB%AF%B8%EC%85%98%EC%82%AC%EC%A7%84">: LINK</a></details></details>
+         
+<br>
+
+<!-- 4번째 팀퀴즈-->         
 &nbsp;&nbsp;&nbsp;<h3><details><summary> :four: 강정현, 이성규, 장수정 / 박태영, 손정현</summary></p>
 <h3> &nbsp;:heavy_check_mark: My role</p>
      <h6> &nbsp; : 2문제 제작</p>
 <h3> &nbsp;:heavy_check_mark: LINK</p>
-     <a href = "https://github.com/Puzzle928/0531_Prac_collaboration"><h6>&nbsp;&nbsp;: LINK</a></details>
+<a href = "https://github.com/Puzzle928/0531_Prac_collaboration"><h6>&nbsp;&nbsp;: LINK</a></details>
