@@ -10,7 +10,7 @@
 <br>     
      
 <h2> :ledger: TEAM QUIZ
-&nbsp;&nbsp;&nbsp;<h3><details><summary>:one: 강정현, 이성규, 장수정</summary></p>
+&nbsp;&nbsp;&nbsp;<h3><details><summary>:one: 강정현, 이성규, 장수정  박태영,손정현</summary></p>
 <h3> &nbsp;:heavy_check_mark: My role</p>
      <h6> &nbsp; : 2문제 제작</p>
 <h3> &nbsp;:heavy_check_mark: LINK</p>
