@@ -1,0 +1,130 @@
+  
+<html>
+<header>
+<title>미션문제 만들기</title>
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+<style>
+body {font-family: 'Nanum Gothic', sans-serif;}
+h1 {margin : 1rem;}
+details {padding : 1rem; white-space: pre-wrap;}
+.question {margin : 2rem; padding : 1rem; border: 1px solid gray;}
+</style>
+</header>
+
+<body>
+
+<h1>[손정현]</h1>
+
+<div class='question' id=Q1>
+
+      <h4>1. 성(last_name)이 'A'로 시작하는 직원들의 이름(first_name)과 직업(job_title)을 나타내라.</h4>
+      
+      <details>
+            <summary>모범 답안</summary>
+            <strong>select</strong> first_name, last_name, job_title
+            <strong>from</strong> emp_details_view
+            <strong>where</strong> last_name like 'A%'; 
+          
+            FIRST_NAME                               LAST_NAME                                          JOB_TITLE
+            ---------------------------------------- -------------------------------------------------- ----------------------------------------------------------------------
+            David                                    Austin                                             Programmer
+            Ellen                                    Abel                                               Sales Representative
+            Sundar                                   Ande                                               Sales Representative
+            Mozhe                                    Atkinson                                           Stock Clerk
+            
+      </details>
+
+</div>
+
+<div class=question id=Q2>
+
+      <h4>2. 2005년 한해동안 입사한 직원들 중 연봉이 10000 이상이고, 성(last_name)에 'S' 가 들어가는 직원들의 이름(first_name)과 부서정보(department_id) 그리고 연봉(salary)을 나타내시오</h4>
+
+      <details>
+            <summary>모범 답안</summary>
+            <strong>select</strong> first_name, last_name, department_id, salary
+            <strong>from</strong> employees
+            <strong>where</strong> hire_date <strong>between</strong>'05/01/01'<strong>and</strong>'05/12/31'
+            <strong>and</strong>last_name<strong>like</strong> like '%S%' <strong>and</strong> salary >= '5000';
+
+            FIRST_NAME                               LAST_NAME                                          DEPARTMENT_ID     SALARY
+            ---------------------------------------- -------------------------------------------------- ------------- ----------
+            Ismael                                   Sciarra                                                      100       7700
+            Lindsey                                  Smith                                                         80       8000
+
+      </details>
+</div>
+
+<h1>[초보자도 할 수 있는 SQL - PTY]</h1>
+
+<div class='question' id=Q3>
+
+      <h4>1. job_id가 A로 시작하는 사람들과 min_salary가 10000 미만인 사람들의 job_id, job_title, min_salary를 출력하시오</h4>
+      
+      <details>
+            <summary>모범 답안</summary>
+            <strong>select</strong> job_id, JOB_TITLE, min_salary
+            <strong>from</strong> jobs
+            <strong>where</strong> job_id <strong> like </strong> 'A%' <strong>and</strong> min_salary </strong> < </strong>10000;
+
+            JOB_ID               JOB_TITLE                                                              MIN_SALARY
+            -------------------- ---------------------------------------------------------------------- ----------
+            AC_ACCOUNT           Public Accountant                                                            4200
+            AC_MGR               Accounting Manager                                                           8200
+            AD_ASST              Administration Assistant                                                     3000
+      
+      </details>
+
+</div>
+
+<div class=question id=Q4>
+      
+      <h4>2. employee_id가 100번대이고 department_id가 100미만인 직원들의 employee_id와 start_date, department_id를 구하여라.</h4>
+     
+      <details>
+            <summary>모범 답안</summary>
+            <strong>select</strong> employee_id, start_date, department_id 
+            <strong>from</strong> job_history
+            <strong>where </strong> department_id <strong> < </strong> '100'
+            <strong>and </strong> employee_id <strong>between </strong> '100' </strong> and </strong> '200'
+
+            EMPLOYEE_ID START_DA DEPARTMENT_ID
+            ----------- -------- -------------
+            114 06/03/24            50
+            122 07/01/01            50
+            102 01/01/13            60
+            176 06/03/24            80
+            176 07/01/01            80
+            200 95/09/17            90
+            200 02/07/01            90
+      
+      </details>
+</div>
+
+
+<div class=question id=Q5>
+      <h4>3. 도시가 'S'로 시작하는 직원들의 location_id, street_address, city를 출력하는데, location_id를 오름차순을 기준으로 출력하시오</h4>
+      
+      <details>
+            <summary>모범 답안</summary>
+            <strong>select</strong> location_id, street_address, city
+            <strong>from</strong> locations
+            <strong>where</strong> city </strong> like </strong> 'S%'
+            <strong>order by</strong> location_id asc;
+
+            LOCATION_ID STREET_ADDRESS                                                                   CITY
+            ----------- -------------------------------------------------------------------------------- ------------------------------------------------------------
+                   1400 2014 Jabberwocky Rd                                                              Southlake
+                   1500 2011 Interiors Blvd                                                              South San Francisco
+                   1600 2007 Zagora St                                                                   South Brunswick
+                   1700 2004 Charade Rd                                                                  Seattle
+                   2200 12-98 Victoria Street                                                            Sydney
+                   2300 198 Clementi North                                                               Singapore
+                   2600 9702 Chester Road                                                                Stretford
+                   2800 Rua Frei Caneca 1360                                                             Sao Paulo
+      
+      </details>
+</div>
+
+</body>
+</html>
