@@ -3,7 +3,7 @@
 <!--프로젝트 칸-->
 <!--첫번째 프로젝트-->
 <h2> 📗 PROJECT
-&nbsp;&nbsp;&nbsp;<h3><details><summary>1️⃣ To-do list</summary></p>
+&nbsp;&nbsp;&nbsp;<h3><details><summary>1️⃣ [210525] To-do list</summary></p>
 <h3> &nbsp;:heavy_check_mark: My role</p>
 <h6> &nbsp; 1. README.md 제작 및 디자인</p>
      &nbsp; 2. login part coding
