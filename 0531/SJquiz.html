@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>locations table 에서 country_id가 US에 해당하는 city를 출력해 주세요.</h4>
+<details><summary>모범 답안</summary>
+<strong>SELECT</strong> city, country_id
+<strong>FROM</strong> locations
+<strong>WHERE</strong> country_id = 'US';
+
+CITY                                                         COUN
+------------------------------------------------------------ ----
+Southlake                                                    US
+South San Francisco                                          US
+South Brunswick                                              US
+Seattle                                                      US
+
+<br>
+
+<h4>locations table 에서 postal_code에 'Y'가 들어가는 city를 city 기준 오름차순으로 출력해 주세요. (단, city는 대문자로 출력)</h4>
+<details><summary>모범 답안</summary>
+<strong>SELECT</strong> upper(city), postal_code
+<strong>FROM</strong> locations
+<strong>WHERE</strong> postal_code <strong>like</strong> '%S%'
+<strong>ORDER BY</strong> city <strong>ASC</strong>;
+
+UPPER(CITY)                                                  POSTAL_CODE
+------------------------------------------------------------ ------------------------
+UTRECHT                                                      3029SK
+WHITEHORSE                                                   YSW 9T2
+
+</body>
+</html>
