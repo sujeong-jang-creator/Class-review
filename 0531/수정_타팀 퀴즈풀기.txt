@@ -63,3 +63,5 @@ SELECT location_id, street_address, city
 FROM locations
 WHERE city LIKE 'S%'
 ORDER BY location_id ASC;
+
+https://github.com/Puzzle928/0531_Prac_collaboration/blob/053fea5983769f1d7ea86d086a5f585346ee787f/%EB%AA%A8%EB%B2%94%EB%8B%B5%EC%95%88.sql.html
