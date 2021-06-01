@@ -79,8 +79,21 @@ alt="No.2" width="900" height="300" align="center" border="0"></details>
 
 <!-- 4번째 팀퀴즈-->  
 
-&nbsp;&nbsp;&nbsp;<h3><details><summary> 4️⃣ [210531] 강정현, 이성규, 장수정 / 박태영, 손정현</summary></p>
+&nbsp;&nbsp;&nbsp;<h3><details><summary> 4️⃣ [210531] 강정현, 이성규, 장수정 / 박태영, 손정현 </summary></p>
 <h3> &nbsp;:heavy_check_mark: My role</p>
-     <h6> &nbsp; : 2문제 제작</p>
+     <h6> &nbsp; : 2문제 제작 & REVIEW</p>
 <h3> &nbsp;:heavy_check_mark: GitHub LINK</p>
 <a href = "https://github.com/Puzzle928/0531_Prac_collaboration"><h6>&nbsp;&nbsp;: LINK</a></details></details>
+                                                                
+<!-- 5번째 팀퀴즈-->  
+
+&nbsp;&nbsp;&nbsp;<h3><details><summary> :five: [210601] 김영민, 이진영, 장수정, 정일균 </summary></p>
+<h3> &nbsp;:heavy_check_mark: My role</p>
+     <h6> &nbsp; : 문제 풀이 & REVIEW</p>
+                                                                
+<h3> &nbsp;:heavy_check_mark: Q/A</p>
+<details><summary> Qusetion </summary></p>     
+Q. 직원중에 [sales] 부서에 있는 직원의 전화번호를 출력하세요.</details>
+<details><summary> Answer </summary></p>          
+<a href = "https://github.com/sujeong-jang-creator/Class-review/blob/d21cdc071052ec798bc2516f560f8f524e4ef8f2/0601/%5B%EB%AC%B8%EC%A0%9C%EB%8B%B5%EC%A7%80%5D%EA%B9%80%EC%98%81%EB%AF%BC,%20%EC%9D%B4%EC%A7%84%EC%98%81,%20%EC%9E%A5%EC%88%98%EC%A0%95,%20%EC%A0%95%EC%9D%BC%EA%B7%A0.sql">: Answer LINK</a></details></details>
+                                                                
