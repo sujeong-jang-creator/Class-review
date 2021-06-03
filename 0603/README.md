@@ -41,9 +41,14 @@
      &nbsp; 2. 자료조사</p>
      &nbsp; 3. Table 제작</p>
 <h3> &nbsp;:heavy_check_mark: GitHub LINK3</p>
-<a href = "https://github.com/sujeong-jang-creator"><h6>&nbsp;&nbsp;: Jcrystal's GitHub LINK</a></details> 
+<a href = "https://github.com/johnny9210"><h6>&nbsp;&nbsp;: johnny9210's GitHub LINK</a></details> 
 
 <br>
      
 <!--다이어그램 칸--> 
-<h2>:radio_button: Diagram
+<h2>:radio_button: Diagram</p>
+<img src="https://github.com/sujeong-jang-creator/Class-review/blob/1d5d36d27f4fa831ad475550d24bfc9bea344dc2/0603/%5Bmovie%5Ddiagram.png" />
+
+<br>
+
+
