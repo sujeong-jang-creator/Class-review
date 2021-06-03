@@ -41,7 +41,7 @@
      &nbsp; 2. 자료조사</p>
      &nbsp; 3. Table 제작</p>
 <h3> &nbsp;:heavy_check_mark: GitHub LINK3</p>
-<a href = "https://github.com/sujeong-jang-creator"><h6>&nbsp;&nbsp;: Jcrystal's GitHub LINK</a></details> 
+<a href = "https://github.com/johnny9210"><h6>&nbsp;&nbsp;: johnny9210's GitHub LINK</a></details> 
 
 <br>
      
