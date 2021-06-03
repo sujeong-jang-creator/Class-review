@@ -126,4 +126,11 @@ insert into genre values(1,'드라마');
 insert into genre values(2,'SF');
 insert into genre values(3,'Melo/Romance');
 insert into genre values(4,'Comedy');
-```</details> 
+```</details></details> 
+
+<br>
+
+<h2>:mag_right: OVEN</p>
+<img src="https://github.com/sujeong-jang-creator/Class-review/blob/91b7bbc0377162ab2f8ffd98a055b33619df3299/0603/oven/%5B0603%20Task%20in%20Class%5D%20MAIN.jpg" />
+<img src="https://github.com/sujeong-jang-creator/Class-review/blob/91b7bbc0377162ab2f8ffd98a055b33619df3299/0603/oven/%5B0603%20Task%20in%20Class%5D%20%EA%B8%B0%EC%83%9D%EC%B6%A9.jpg" />
+
