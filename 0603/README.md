@@ -29,8 +29,8 @@
 &nbsp;&nbsp;&nbsp;<h3><details><summary> 장수정 </summary></p>
 <h3> &nbsp;:heavy_check_mark: Role</p>
 <h6> &nbsp; 1. GitHub업로드</p>
-     &nbsp; 2. diagram제작</p>
-     &nbsp; 3. Oven제작</p>
+     &nbsp; 2. diagram/OVEN제작</p>
+     &nbsp; 3. 발표</p>
 <h3> &nbsp;:heavy_check_mark: GitHub LINK3</p>
 <a href = "https://github.com/sujeong-jang-creator"><h6>&nbsp;&nbsp;: Jcrystal's GitHub LINK</a></details> 
 
@@ -126,4 +126,11 @@ insert into genre values(1,'드라마');
 insert into genre values(2,'SF');
 insert into genre values(3,'Melo/Romance');
 insert into genre values(4,'Comedy');
-```</details> 
+```
+</details></details><br>
+
+<h2><details><summary>:mag_right: OVEN</summary></p>
+<img src="https://github.com/sujeong-jang-creator/Class-review/blob/91b7bbc0377162ab2f8ffd98a055b33619df3299/0603/oven/%5B0603%20Task%20in%20Class%5D%20MAIN.jpg" />
+<img src="https://github.com/sujeong-jang-creator/Class-review/blob/91b7bbc0377162ab2f8ffd98a055b33619df3299/0603/oven/%5B0603%20Task%20in%20Class%5D%20%EA%B8%B0%EC%83%9D%EC%B6%A9.jpg" /></details></details>
+
+
