@@ -47,7 +47,7 @@
      
 <!--다이어그램 칸--> 
 <h2>:radio_button: Diagram</p>
-<img src="https://github.com/sujeong-jang-creator/Class-review/blob/1d5d36d27f4fa831ad475550d24bfc9bea344dc2/0603/%5Bmovie%5Ddiagram.png" />
+<img src="https://github.com/sujeong-jang-creator/Class-review/blob/4b1b8dc3c4ac377fbfe724af27951c44201e853e/0603/diagramlink.png" />
 
 <br>
 
@@ -126,6 +126,8 @@ insert into genre values(1,'드라마');
 insert into genre values(2,'SF');
 insert into genre values(3,'Melo/Romance');
 insert into genre values(4,'Comedy');
+
+commit;
 ```
 </details></details><br>
 
