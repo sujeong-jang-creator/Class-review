@@ -1,15 +1,21 @@
 # 210603 SQL Mini Project
-주제선정 : 검색사이트에 들어갈 프로필 출력 설계
+주제선정 : 영화정보 검색 사이트
 1. 들어가야 할 정보
-   > 나무위키 : https://namu.wiki/w/%EB%82%98%EB%AC%B4%EC%9C%84%ED%82%A4:%EB%8C%80%EB%AC%B8
-    - 이름
-    - 생년월일(나이)
-    - 소속사
-    - 데뷔일
-    - 가족
-    - MBTI / MBTI형(ex.ENTP-뜨거운 논쟁을 즐기는 변론가)
-      > MBTI 한줄설명 : https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9-%EC%9C%A0%ED%98%95
+    - 영화이름
+    - 영화감독
+    - 배우
     
-2. 시간 남으면 넣고싶은 기능
+2. Interface 첨부 기능
     - 사진
-    - 공식홈페이지 연결
+
+3. 역할
+    - 박철희 :
+    - 부석민 : 
+    - 이현수 :
+    - 장수정 : 
+    - 정일균 : 
+
+4. Table을 어떻게 나눌 것인가?
+    - Table 1. MOVIE
+    - Table 2. ACTOR
+    - Table 3. Director
