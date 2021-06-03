@@ -71,3 +71,4 @@ insert into genre values(2,'SF');
 insert into genre values(3,'Melo/Romance');
 insert into genre values(4,'Comedy');
 
+commit;
