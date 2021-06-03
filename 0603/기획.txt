@@ -9,11 +9,11 @@
     - 사진
 
 3. 역할
-    - 박철희 :
-    - 부석민 : 
-    - 이현수 :
-    - 장수정 : 
-    - 정일균 : 
+    - 박철희 : Coding, 자료조사
+    - 부석민 : Coding, 자료조사
+    - 이현수 : Coding, 자료조사
+    - 장수정 : GitHub업로드, diagram제작, Oven제작
+    - 정일균 : Main idea, 자료조사, Table 제작
 
 4. Table을 어떻게 나눌 것인가?
     - Table 1. MOVIE

@@ -1,0 +1,43 @@
+create table movie (movie_id varchar2(20),
+                    release_date date,
+                    rating int,
+                    audience_no int,
+                    running_time int,
+                    genre_id int,
+                    primary key(movie_id));
+
+create table actor (actor_id varchar2(20),
+                    movie_id varchar2(20),
+                    character varchar2(20),
+                    agency varchar2(20),
+                    gender char(1) constraint actor_gender check (gender in ('F','M')),
+                    primary key(actor_id),
+                    foreign key(movie_id) references movie(movie_id));    
+
+insert into movie values('Jurassic Park',to_date('1991-06-11','yyyy-mm-dd'),9.32,555,132,2);
+insert into movie values('Titanic',to_date('1998-02-20','yyyy-mm-dd'),9.88,197,194,3);
+INSERT INTO MOVIE VALUES('기생충', to_date('2019-05-30','yyyy-mm-dd'), 9.07, 1030, 132, 1);
+insert into movie values ('Cruella',to_date('2021-05-26','yyyy-mm-dd'),8.7,38,133,4);
+insert into movie values('미나리', to_date('2021-03-03','yyyy-mm-dd'), 8.31, 110, 115, 1);
+
+
+insert into actor values('Sam Neill','Jurassic Park','DR.allen grant','Curtis Brown', 'M');
+insert into actor values('Laura Dern','Jurassic Park','Ellie Sattler','IMDbPro', 'F');
+insert into actor values('Jeff Goldblum','Jurassic Park','Ian Malcolm','Elevate Artist', 'M');
+insert into actor values('Leonardo DiCaprio','Titanic','Jack Dawson','Creative Artists', 'M');
+insert into actor values('Kate Winslet','Titanic','Rose DeWitt','United Agents', 'F');
+insert into actor values('Billy Zane','Titanic','Caledon Hockley','MN2S', 'M');
+INSERT INTO actor VALUES('송강호', '기생충', '기택 역', '써브라임', 'M');
+INSERT INTO actor VALUES('이선균', '기생충', '동익 역', '호두앤유', 'M');
+INSERT INTO actor VALUES('조여정', '기생충', '연교 역', '높은엔터', 'F');
+INSERT INTO actor VALUES('최우식', '기생충', '기우 역', '매니지먼트 숲', 'M');
+INSERT INTO actor VALUES('박소담', '기생충', '기정 역', '아티컴퍼니', 'F');
+INSERT INTO actor VALUES('이정은', '기생충', '문광 역', '윌엔터', 'F');
+INSERT INTO actor VALUES('장혜진', '기생충', '충숙 역', '아이오케이', 'F');
+insert into actor values ('Emma Stone', 'Cruella', 'Cruella', '','F');
+insert into actor values ('Emma Thompson', 'Cruella', 'Baroness', 'Hamilton','F');
+insert into actor values ('Emily Beecham', 'Cruella', 'Catherine Miller' , 'Beaumont', 'F');
+insert into actor values('스티븐연', '미나리', '제이콥', 'B앤C', 'M');
+insert into actor values('한예리', '미나리', '모니카', '사람엔터', 'F');
+insert into actor values('윤여정', '미나리', '순자', '후크엔터', 'F');
+insert into actor values('앨런김', '미나리', '데이빗', 'CAA', 'M');
