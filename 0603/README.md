@@ -29,8 +29,8 @@
 &nbsp;&nbsp;&nbsp;<h3><details><summary> 장수정 </summary></p>
 <h3> &nbsp;:heavy_check_mark: Role</p>
 <h6> &nbsp; 1. GitHub업로드</p>
-     &nbsp; 2. diagram제작</p>
-     &nbsp; 3. Oven제작</p>
+     &nbsp; 2. diagram/OVEN제작</p>
+     &nbsp; 3. 발표</p>
 <h3> &nbsp;:heavy_check_mark: GitHub LINK3</p>
 <a href = "https://github.com/sujeong-jang-creator"><h6>&nbsp;&nbsp;: Jcrystal's GitHub LINK</a></details> 
 
