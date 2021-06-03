@@ -46,4 +46,9 @@
 <br>
      
 <!--다이어그램 칸--> 
-<h2>:radio_button: Diagram
+<h2>:radio_button: Diagram</p>
+<img src="https://github.com/sujeong-jang-creator/Class-review/blob/1d5d36d27f4fa831ad475550d24bfc9bea344dc2/0603/%5Bmovie%5Ddiagram.png" />
+
+<br>
+
+
