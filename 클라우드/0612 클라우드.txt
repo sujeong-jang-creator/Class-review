@@ -1,0 +1,6 @@
+- AWS 보안서비스 :IAM
+- AWS 스토리지 서비스 : S3
+- AWS 컴퓨팅 서비스 : EC2, EBS
+- AWS 네트워크 서비스 : VPC
+- 고가용성 아키텍처 : ELB, EC2 Auto Scaling, CloudWatch
+- AWS 데이터베이스 서비스 : RDS, DynamoDB
