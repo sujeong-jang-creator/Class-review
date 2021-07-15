@@ -1,0 +1,14 @@
+실시간데이터 수집 -> csv(pandas) 파일로 변환 코드 개발 생성
+
+beats가 file을 read해서
+
+logstash에 넣어
+
+logstash에 설정 정보에 의해 데이터가 일정부분 filtering
+
+filtering된 데이터를 ES에 넣어 (kibana에서 시각화 - 데이터가 갱신되면 실시간 차트도 갱신)
+
+-> chart를 html에 응답 차트로 실시간 적용
+
+file을 es에 직접 저장하는 기능 활용 - 
+-> ES에 넣어야 할 경우 떄에 따라 수작업... 자동화로 처리해야함
